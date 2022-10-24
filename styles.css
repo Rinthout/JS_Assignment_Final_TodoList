@@ -1,0 +1,71 @@
+body {
+    font-family:"Trebuchet MS", arial, verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+li {
+    width: 600px;
+    list-style: none;
+    margin-left: -40px;
+}
+
+.newtask {
+    margin-left: 10px;
+}
+
+.todo-list {
+    margin-left: 10px;
+}
+
+.checkbox {
+    margin: 0 50px 0 15px;
+}
+
+#input-task {
+    width: 450px;
+    font-size: 15px;
+    margin-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    padding: 4px 0px 4px 10px;
+}
+
+::placeholder {
+    color: rgb(150, 150, 150);
+}
+
+.submitButton {
+    background-color: #3a85dd;
+    color: white;
+    border: 5px solid #3a85dd;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+.todoDiv {
+    width: 650px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px 0px 20px 0px;
+    margin-top: -1px;
+}
+
+.imgBin {
+    width: 15px;
+    float: right;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 3px;
+}
+
+.crossOut {
+    text-decoration: line-through;
+}
